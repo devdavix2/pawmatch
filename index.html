@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawMatch - Find Your Perfect Pet</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monterrast:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./img/logo.svg" />
+    <link rel="stylesheet" href="asset/css/creative-studio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm">
+        <div class="container d-flex align-items-center justify-content-between py-3">
+            <!-- Logo and Title -->
+            <div class="d-flex align-items-center">
+                <!-- Paw Icon as Logo -->
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo me-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M6.5 12.5L3 14V7l3.5 1.5 3.5-1.5v7l-3.5-1.5-3.5 1.5z" />
+                </svg>
+                <a href="index.html" class="nav-link">
+                    <h1 class="site-title mb-0">Paw<span class="text-pink">Match</span></h1>
+
+                </a>
+
+            </div>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="desktop-menu d-none d-lg-flex">
+                <ul class="list-unstyled d-flex mb-0 mt-2">
+                    <li class="ms-4"><a href="#" class="nav-link">About</a></li>
+                    <li class="ms-4"><a href="#" class="nav-link">How it Works</a></li>
+                    <li class="ms-4"><a href="#" class="nav-link">Adopt</a></li>
+                    <li class="ms-4"><a href="#" class="nav-link">Donate</a></li>
+                    <li class="ms-4"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="header-btn">
+                <a href="login.php" class="nav-link">Get Started</a>
+            </button>
+
+
+            <!-- Navbar Toggle for Mobile -->
+            <button class="navbar-toggler text-black d-lg-none" type="button" id="menuToggle" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="toggle-icon" fill="none" viewBox="0 0 24 24"
+                    stroke="black">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by Default) -->
+    <div id="mobileMenu" class="mobile-menu d-lg-none">
+        <ul class="list-unstyled mb-0">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#hwk" class="nav-link">How it Works</a></li>
+            <li><a href="#adopt" class="nav-link">Adopt</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <br>
+            <li><a href="login.php" class="hero-btn"> Get Started</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title"> Discover Your Perfect Pet </h1>
+                    <p class="hero-subtitle">Your journey to adopting a new furry friend begins here. Discover pets
+                        waiting for a loving home today!</p>
+                    <a href="login.php" class="hero-btn">Start Your Search</a>
+                </div>
+                <div class="hero-image">
+                    <img src="./img/pawmatch-hero1.png" alt="Happy pet and owner" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="hero" class="featured-pets">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title"> Featured Pets </h1>
+                    <p class="hero-subtitle">Your journey to adopting a new furry friend begins here. Discover pets
+                        waiting for a loving home today!</p>
+                </div>
+
+                <!-- Flex Container for Pet Cards -->
+                <div class="pets-flex-container">
+                    <!-- Pet Card 1 -->
+                    <div class="pet-card">
+                        <img src="./img/pet1.png" alt="Cute Dog" class="pet-img">
+                        <h3 class="pet-name">Buddy</h3>
+                        <p class="pet-description">Buddy is a playful and friendly Labrador who loves to fetch and
+                            cuddle.
+                        </p>
+                        <a href="#" class="pet-btn">Adopt Buddy</a>
+                    </div>
+
+                    <!-- Pet Card 2 -->
+                    <div class="pet-card">
+                        <img src="./img/pet3.png" alt="Fluffy Cat" class="pet-img">
+                        <h3 class="pet-name">Whiskers</h3>
+                        <p class="pet-description">Whiskers is a calm and loving cat, perfect for a cozy lap and warm
+                            snuggles.</p>
+                        <a href="#" class="pet-btn">Adopt Whiskers</a>
+                    </div>
+
+                    <!-- Pet Card 3 -->
+                    <div class="pet-card">
+                        <img src="./img/pet2.png" alt="Happy Puppy" class="pet-img">
+                        <h3 class="pet-name">Max</h3>
+                        <p class="pet-description">Max is a cheerful puppy with lots of energy, ready for a loving
+                            family.
+                        </p>
+                        <a href="#" class="pet-btn">Adopt Max</a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="how-it-works">
+        <div class="hwcontainer">
+            <div class="row">
+                <!-- Column 1: Image -->
+                <div class="col image-column">
+                    <img src="img/pet1.png" alt="Happy Pet" class="pet-image">
+                </div>
+
+                <!-- Column 2: Steps Boxes -->
+                <div class="col boxes-column">
+                    <h2>How It Works</h2>
+
+                    <!-- Step 1 -->
+                    <div class="step-box">
+                        <i class="fas fa-search"></i>
+                        <h3>Browse Pets</h3>
+                        <p>Explore our list of available pets and find your perfect match.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step-box">
+                        <i class="fas fa-file-signature"></i>
+                        <h3>Apply & Meet</h3>
+                        <p>Submit your application and meet your potential new friend.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step-box">
+                        <i class="fas fa-heart"></i>
+                        <h3>Adopt & Enjoy</h3>
+                        <p>Finalize the adoption and bring home your new furry family member.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+        <div class="hwcontainer">
+            <div class="row">
+                <!-- Column 1: Image -->
+                <div class="col image-column">
+                    <img src="img/contact.jpeg" alt="Happy Pet" class="pet-image">
+                </div>
+
+                <!-- Column 2: Steps Boxes -->
+                <div class="col boxes-column">
+                    <h2>Contact Us</h2>
+                    <p>We’d love to hear from you! Whether you have questions about adopting, donating, or volunteering,
+                        feel
+                        free to reach out.</p>
+
+                    <div class="contact-content">
+                        <!-- Contact Form -->
+                        <div class="contact-form">
+                            <form action="contact.php" method="post">
+                                <div class="input-group">
+                                    <input type="text" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea name="message" placeholder="Your Message" required></textarea>
+                                </div>
+                                <input type="submit" value="Send Message" class="contact-btn">
+                            </form>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="contact-info">
+                            <h3>Our Office</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> 123 Pawmatch Lane, Petville, CA 90210</p>
+                            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                            <p><i class="fas fa-envelope"></i> support@pawmatch.com</p>
+
+                            <h3>Follow Us</h3>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Logo and Description -->
+                <div class="footer-about">
+                    <h3>Pawmatch</h3>
+                    <p>Your trusted platform for finding your next furry friend. Adopt, donate, or get in touch with us
+                        to learn more about our mission to help pets find their forever homes.</p>
+                    <div>
+                        Copyright 2024 © PawMatch. All rights reserved
+
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Adopt a Pet</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Pawmatch Lane, Petville, CA 90210</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> support@pawmatch.com</p>
+
+                    <!-- Social Media Icons -->
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript for Toggle Functionality -->
+    <script>
+        // Toggle menu for mobile view
+        const menuToggle = document.getElementById("menuToggle");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        // Initially hide the mobile menu
+        mobileMenu.style.display = "none";
+
+        menuToggle.addEventListener("click", () => {
+            // Toggle the display of the mobile menu
+            if (mobileMenu.style.display === "none") {
+                mobileMenu.style.display = "block";
+            } else {
+                mobileMenu.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+</html>
